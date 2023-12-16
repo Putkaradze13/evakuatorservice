@@ -1,0 +1,43 @@
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+  --main-green: yellowgreen;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 980px) {
+  :root {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 460px) {
+  :root {
+    font-size: 60%;
+  }
+}
